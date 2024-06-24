@@ -1,0 +1,14 @@
+body {
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+section {
+    margin-top: 1.5cm;
+}
+
+.contact {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
