@@ -1,0 +1,69 @@
+
+/* page container (keeps spacing consistent) */
+.container-md {
+    max-width:900px;
+    
+}
+
+/* header */
+header h1{
+    color: #ffffff;
+    font-weight:700;
+    letter-spacing: 0.6px;
+    margin-bottom: 0.25rem;
+    text-shadow: 0 2px 10px rgba(0,0,0,0.6);
+}
+
+/* navbar tweaks */
+.navbar {
+    background: transparent!important;
+}
+
+.navbar .nav-link {
+    color: rgba(255,255,255,0.75);
+    transition: color .18s, transform .12s;
+    margin: 0 .3rem;
+}
+
+.navbar .nav-link:hover{
+    color: var(--accent);
+    transform: translateY(-1px);
+}
+
+.navbar .nav-link.active{
+    color: var(--accent);
+    font-weight:600;
+    text-decoration: underline;
+}
+
+main h3 {
+    color: #ffffff;
+    margin-top:0;
+    margin-bottom: 0.6rem;
+    font-size: 1.05rem;
+}
+
+
+/* link styles inside footer and elsewhere */
+a.text-white {
+    color: #ffffff;
+    transition: color .15s, transform .12s;
+}
+a.text-white:hover{
+    color: var(--accent);
+    transform: translateY(-1px);
+}
+
+/* footer - keep visible but not overlapping content */
+footer {
+    background: transparent;
+    border-top: 1px solid rgba(255,255,255,0.03);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+
+.contact-links {
+    text-align: center;
+}
+
