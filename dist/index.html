@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <title>Jay Mavin Portfolio</title>
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white text-lg font-sans">
+
+  <!-- Header -->
+  <header class="text-center py-8">
+    <h1 class="text-5xl font-bold mb-2">Jay Mavin</h1>
+  </header>
+
+  <!-- Navigation -->
+<nav class="flex justify-center gap-6 border-b border-gray-700 py-2 -mt-6">
+    <a href="index.html" class="hover:text-yellow-400 transition">Home</a>
+    <a href="projects.html" class="hover:text-yellow-400 transition">Projects</a>
+    <a href="contacts.html" class="hover:text-yellow-400 transition">Contact</a>
+</nav>
+
+  <!-- Main Content -->
+  <main class="max-w-3xl mx-auto p-6 space-y-8">
+    
+    <section>
+      <h2 class="text-xl font-semibold mb-2">Education</h2>
+      <div class="flex items-center gap-4 mb-4">
+        <img src="/assets/ncl-RqwjihtF.png" alt="ncl" class="h-12 w-auto object-contain">
+       <p>BSc Computer Science at Newcastle University <i>(2019-2022)</i></p>
+        </div>
+            <div class="flex items-center gap-4 mb-4">
+        <img src="/assets/kcl-uymwsPq1.png" alt="kcl" class="h-12 w-auto object-contain">
+        <p>MSc Cyber Security at King's College London <i>(2022-2023)</i></p>
+        </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Experience</h2>
+      <div class="flex items-center gap-4 mb-4">
+        <img src="/assets/dyson-Bp8SYTqG.jpg" alt="dyson" class="h-12 w-auto object-contain">
+        <p class="text-white text-lg">
+        Cyber Security Graduate at Dyson <i>(2023-2024)</i>
+        </p>
+        </div>
+        <div class="flex items-center gap-4 mb-4">
+        <img src="data:image/png;base64,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" alt="whsmith" class="h-12 object-contain">
+        <p>Security Analyst at WHSmith <i>(2024-2025)</i></p>
+        </div>
+        <div class="flex items-center gap-4 mb-4">
+        <img src="data:image/png;base64,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" alt="visa" class="h-12 w-auto object-contain">
+        <p>SOC Analyst at Visa <i>(2026-present)</i></p>
+        </div>
+    </section>
+
+    <section>
+      <h2 class="text-2xl font-semibold mb-2">Certifications</h2>
+      <p>CompTIA Security+</p>
+      <p>Security Blue Team Level 1 (BTL1)</p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="flex justify-center gap-4 py-6">
+    <!-- Linkedin button -->
+     <a href="https://www.linkedin.com/in/jaymavin" target="_blank">
+    <button
+  type="button"
+  data-twe-ripple-init
+  data-twe-ripple-color="light"
+  class="mb-2 inline-block rounded bg-[#0077b5] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  <span class="[&>svg]:h-4 [&>svg]:w-4">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 448 512">
+      <path
+        d="M100.3 448H7.4V148.9h92.9zM53.8 108.1C24.1 108.1 0 83.5 0 53.8a53.8 53.8 0 0 1 107.6 0c0 29.7-24.1 54.3-53.8 54.3zM447.9 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448z" />
+    </svg>
+  </span>
+</button>
+</a>
+    <!-- GitHub button -->
+     <a href="https://github.com/jaymavin" target="_blank">
+<button
+  type="button"
+  data-twe-ripple-init
+  data-twe-ripple-color="light"
+  class="mb-2 inline-block rounded bg-[#333] px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg">
+  <span class="[&>svg]:h-4 [&>svg]:w-4">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="currentColor"
+      viewBox="0 0 496 512">
+      <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc. -->
+      <path
+        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+    </svg>
+  </span>
+</button>
+</a>
+  </footer>
+
+</body>
+</html>
